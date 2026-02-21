@@ -1,5 +1,5 @@
 // --- 1. LÓGICA DE LOS ANILLOS Y EL RELOJ ---
-const fechaObjetivo = new Date("Feb 21, 2026 00:00:00").getTime();
+const fechaObjetivo = new Date("Feb 20, 2026 00:00:00").getTime();
 const circunferencia = 314;
 
 const intervalo = setInterval(() => {
@@ -201,5 +201,6 @@ function animar() {
         }
     }
 }
+
 
 animar();
