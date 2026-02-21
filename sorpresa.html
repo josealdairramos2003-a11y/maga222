@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi persona favorita ❤️</title>
+    <link rel="stylesheet" href="sorpresa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="musica-sorpresa" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="pantalla-carga">
+        <div class="corazon-latido">❤️</div>
+        <p>Cargandoooo...</p>
+    </div>
+
+    <div id="panel-seguridad" class="oculto">
+        <div class="caja-login">
+            <div class="icono-candado" id="candado">🔒</div>
+            <h2 class="titulo-cyber">TA BLOKEAO :V</h2>
+            <p>Introduce la clave para desencriptar tu sorpresa.</p>
+            <p class="pista">(Pista: es mas facil de lo que crees adivinala comienza con 21) Y SII demora en cargar es pq tiene mucha multimedia ten paciencia</p>
+            
+            <input type="password" id="password" placeholder="********" maxlength="8">
+            <button id="btn-ingresar">DESBLOQUEAR</button>
+            <p id="mensaje-error" class="oculto">Acceso denegado. Intenta de nuevo tilina.</p>
+        </div>
+    </div>
+
+    <main id="universo-sorpresa" class="oculto">
+        
+        <canvas id="petalos"></canvas>
+
+        <section class="seccion hero">
+            <h1 class="titulo-gigante fade-in">Feliz cumpleaños mi maga</h1>
+            <p class="subtitulo-hero fade-in delay-1">Hagamos un recorrido por todo lo que hemos vivido estos años :3.</p>
+            <div class="indicador-scroll fade-in delay-2">Desliza hacia abajo pe</div>
+        </section>
+
+        <section class="seccion seccion-musica animar-scroll">
+            <h2 class="titulo-seccion">Aunque paresca demasiado cursi cada que escucho esta canción pienso en ti mai lof</h2>
+            <div class="reproductor-pro">
+                <div class="disco-girando"><img src="musica.png" alt="Portada" id="portada-disco"></div>
+                <div class="controles-musica">
+                    <h3 id="titulo-cancion">:3</h3>
+                    <button id="btn-play" class="btn-circular"> II PAUSE</button>
+                    <p class="nota-musica">Música de fondo activada :V</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion seccion-textos animar-scroll">
+            <h2 class="titulo-seccion">Lo que amo de ti</h2>
+            <div class="grid-flip-cards">
+                <div class="flip-card animar-scroll">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><h3>Tu Sonrisa</h3><p>Toca para leer :v</p></div>
+                        <div class="flip-card-back"><p>Por alguna razon que desconosco algo que siempre he hecho es amar cuando sonries yo siento una devilidad a verte sonreir en todos estos años cuando me llamabas o me enviabas una foto sonriendo me alegraba tanto el alma y el dia, yo amo tu sonrisa me dan ganas de besarte cuando sonries aklsjdakjs :'3 </p></div>
+                    </div>
+                </div>
+                <div class="flip-card animar-scroll">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><h3>Tu Forma de Ser</h3><p>Toca para leer </p></div>
+                        <div class="flip-card-back"><p>Si ay algo que me gusta de la maga es como es, no es como las demas personas para mi es diferente del resto tiene algo que la hace diferente su forma de ser es sin duda algo fuera de lo comun yo amo que sea diferente que sonria que siempre luche que quiera acabar su carrera que hable con su asento que tanto me llama la atencion que me siga en mis locuras o mas que locuras weadas laksdjja, eres calma todo tu ser tu forma de ser es calma para mi y por esto te amo </p></div>
+                    </div>
+                </div>
+                <div class="flip-card animar-scroll">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><h3>Tu Futuro</h3><p>Toca para leer owos</p></div>
+                        <div class="flip-card-back"><p>Yo sin duda se que vas a ser grande osea de estatura no sino mas bien en lo que seras, se que seras buena madre, buena enfermera, buena persona, pq en los años que te e conocido e ido descubriendote, viendo en como te esfuerzas en como te frustras por una mala nota y amo es, amo que seas competitiva que te esfuerzes en pensar en tu futuro y es algo que me encanta de ti.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion seccion-timeline animar-scroll">
+            <h2 class="titulo-seccion">Nuestra Historia</h2>
+            <div class="linea-tiempo">
+                <div class="evento animar-scroll izquierda"><div class="contenido-evento"><h3>El inicio</h3><p>Cuando nos conocimos por primera vez fue raro xd, pq fue por el frifayer no se si lo recuerdes pero aunque sea un juego te conoci y desde ese dia es que eres lo mas importante que tengo</p></div></div>
+                <div class="evento animar-scroll derecha"><div class="contenido-evento"><h3>El primer encuentro</h3><p>Aunque no nos ayamos conocido en si, hemos pasado mucho tiempo juntos que te siento tan cerca, cuantas horas de llamadas y videollamadas hemos tenido, aveces huelo tu bolsita de chocoteja y te imagino preparandolas kasdalsj no se si cuenta igual o sea un deprabado xd</p></div></div>
+                <div class="evento animar-scroll izquierda"><div class="contenido-evento"><h3>Hoy</h3><p>Hoy porque es un dia muy especial para mi, hoy nacio una linda y robusta y charapita bebe :3 por su puesto que es un dia muy especial para mi, gracias por nacer y gracias por seguir viviendo. </p></div></div>
+            </div>
+        </section>
+
+        <section class="seccion seccion-galeria animar-scroll">
+            <h2 class="titulo-seccion">Recuerdos</h2>
+            <p class="subtitulo-galeria">Gracias por haberme llenado la galeria de ti :3</p>
+            <div class="masonry-grid">
+                <div class="item-galeria"><img src="foto1.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto1.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto2.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto3.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto4.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto5.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto6.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto7.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto8.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto9.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto10.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto11.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto12.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto13.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto14.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto15.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto16.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto17.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto18.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto19.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto20.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto21.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto22.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto23.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto24.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto25.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto26.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto27.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto28.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto29.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto30.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto31.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto32.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto33.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto34.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto35.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto36.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto37.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto38.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto39.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto40.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto41.jpeg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto42.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto43.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto44.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto45.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto46.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto47.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto48.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto49.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto50.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto51.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto52.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto53.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto54.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto55.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto56.jpg" alt="Recuerdo" loading="lazy"></div>
+<div class="item-galeria"><img src="foto57.jpeg" alt="Recuerdo" loading="lazy"></div>
+
+
+            
+                </div>
+        </section>
+
+        <section class="seccion seccion-audios animar-scroll">
+            <h2 class="titulo-seccion">Mi voz para ti</h2>
+            <p class="subtitulo-galeria">Pequeños audios que grabé pensando en ti.</p>
+            <div class="grid-audios">
+                <div class="tarjeta-audio">
+                    <button class="btn-play-audio" onclick="reproducirNota('nota1.mp3', this)">▶️</button>
+                    <div class="ondas-audio"><span></span><span></span><span></span><span></span></div>
+                    <p>Cuando te conocí...</p>
+                </div>
+                <div class="tarjeta-audio">
+                    <button class="btn-play-audio" onclick="reproducirNota('nota2.mp3', this)">▶️</button>
+                    <div class="ondas-audio"><span></span><span></span><span></span><span></span></div>
+                    <p>Lo que más me gusta de ti</p>
+                </div>
+                <div class="tarjeta-audio">
+                    <button class="btn-play-audio" onclick="reproducirNota('nota3.mp3', this)">▶️</button>
+                    <div class="ondas-audio"><span></span><span></span><span></span><span></span></div>
+                    <p>Un secreto...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion seccion-cubo animar-scroll">
+            <h2 class="titulo-seccion">Siempre me imagine junto a ti en alguna plaza o parque</h2>
+            <div class="contenedor-cubo">
+                <div class="cubo-3d">
+                    <div class="cara-cubo frente"><img src="foto9.jpeg" alt=""></div>
+                    <div class="cara-cubo atras"><img src="foto9.jpeg" alt=""></div>
+                    <div class="cara-cubo derecha"><img src="foto9.jpeg" alt=""></div>
+                    <div class="cara-cubo izquierda"><img src="foto9.jpeg" alt=""></div>
+                    <div class="cara-cubo arriba"><img src="foto9.jpeg" alt=""></div>
+                    <div class="cara-cubo abajo"><img src="foto9.jpeg" alt=""></div>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="seccion seccion-carta animar-scroll">
+            <div class="sobre-cristal">
+                <h2 class="titulo-carta">Mi Carta para ti...</h2>
+                <p id="texto-maquina" class="texto-escribiendo"></p>
+            </div>
+        </section>
+
+        <section class="seccion seccion-terminal animar-scroll" style="padding-bottom: 150px;">
+            <h2 class="titulo-seccion">Acceso Restringido</h2>
+            <div class="consola-hacker">
+                <div class="cabecera-consola">
+                    <span class="punto rojo"></span><span class="punto amarillo"></span><span class="punto verde"></span>
+                    <p>Terminal.exe - C:\Charapa\Bañate</p>
+                </div>
+                <div class="cuerpo-consola" id="pantalla-consola">
+                    <p class="texto-verde">Cargando base de datos estilo hacker :Vxdd...</p>
+                    <p class="texto-verde">SISTEMA: Para revelar el espacio oculto, escribe la palabra mágica y presiona Enter.</p>
+                    <p class="texto-amarillo">Pista: Lo que siento por ti (2 palabras ya sino adivinas ctv te pego)...</p>
+                    <div class="linea-input">
+                        <span class="texto-verde">C:\></span>
+                        <input type="text" id="input-hacker" autocomplete="off" spellcheck="false">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="regalo-hackeado" class="oculto">
+                <h3 class="titulo-brillante">¡SISTEMA VULNERADO CON ÉXITO YA ERE HAACKER XD! 🔓</h3>
+                <p style="color: #ffb3c1; margin-bottom: 20px;">Aunque ya no este</p>
+                <div class="contenedor-video-secreto">
+                  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/x6bXgSXBEFU" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+                </div>
+                <p class="texto-despedida" style="margin-top: 40px; font-size: 2.5rem; color: #ff758c; font-family: 'Playfair Display', serif;">¡Feliz Cumpleaños, mi amor eterno</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="sorpresa.js"></script>
+</body>
+</html>
